@@ -1,0 +1,7 @@
+# microservice-configs/application.yml
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+
