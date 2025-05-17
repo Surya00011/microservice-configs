@@ -7,11 +7,15 @@ spring:
   application:
     name: producer-service
 
+  datasource:
+    url: jdbc:mysql://localhost:3306/producer_db
+    username: root
+    password: 9080
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   rabbitmq:
     host: localhost
     port: 5672
     username: guest
     password: guest
-
-
 
