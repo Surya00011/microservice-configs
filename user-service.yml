@@ -1,0 +1,17 @@
+# microservice-configs/other-service.yml
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: user-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/user_db
+    username: root
+    password: 9080
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+app:
+  message: "This is other-service"
