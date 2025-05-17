@@ -19,3 +19,5 @@ spring:
     username: guest
     password: guest
 
+app:
+  message: "This is producer-service"
