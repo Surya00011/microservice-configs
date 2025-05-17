@@ -1,5 +1,3 @@
-# microservice-configs/other-service.yml
-
 server:
   port: 8082
 
@@ -13,5 +11,10 @@ spring:
     password: 9080
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 app:
-  message: "This is other-service"
+  message: "This is user-service"
